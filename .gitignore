@@ -1,0 +1,17 @@
+# Archivos
+log*
+blame*
+*.txt
+*.temp
+*.tmp
+*.swp
+*.bak
+
+# Carpetas
+node_modules/
+temp/
+tmp/
+dump/
+logs/
+cache/
+docs/
