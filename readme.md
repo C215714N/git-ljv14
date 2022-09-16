@@ -13,3 +13,8 @@ Esto es una guia para los alumnos del curso de _git desarrollo colaborativo_ de 
 * __git remote -v:__ muestra las direccion de repositorios configurados
 * __git remote add `alias` `url`:__ agrega una direccion de repositorio remoto
 * __git remote set-url `alias` `url`:__ modifica la direccion de un remoto existente
+
+## Control de Cambios
+
+* __git add `file`:__ agrega los cambios al staging area (INDEX)
+* __git commit:__ abre el editor para generar una confirmacion de cambios.
