@@ -18,3 +18,9 @@ Esto es una guia para los alumnos del curso de _git desarrollo colaborativo_ de 
 
 * __git add `file`:__ agrega los cambios al staging area (INDEX)
 * __git commit:__ abre el editor para generar una confirmacion de cambios.
+
+## Sincronizacion de Cambios
+
+* __git push `remote` `branch`:__ envia el historial de cambios al repositorio remoto
+* __git fetch `remote`:__ captura el historial de confirmaciones del repositorio remoto 
+* __git pull `remote` `branch`:__ obtiene los cambios del repositorio remoto y en la rama actual
