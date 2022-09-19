@@ -2,6 +2,11 @@
 
 Esto es una guia para los alumnos del curso de _git desarrollo colaborativo_ de la __Fundacion Pescar__, donde se exponen los comandos vistos en clase y se muestran ejemplos de los temas trabajados.
 
+## GIT AREAS
+* __Working Directory:__ Corresponde a la carpeta donde inicializamos el proyecto, aqui creamos, editamos y eliminamos los diferentes archivos
+* __Staging Area (INDEX):__ Corresponde al area de control de cambios, donde realizamos la captura de nuestro codigo que luego debe ser confirmada
+* __Repository (LOCAL):__ Corresponde al almacen de cambios donde se encuentran las confirmaciones en formato de objetos (BLOB) creando un nodo en el grafo.
+
 ## Configuracion Inicial
 
 * __git init__: inicializa un repositorio local
