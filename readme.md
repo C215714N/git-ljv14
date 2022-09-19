@@ -21,8 +21,10 @@ Esto es una guia para los alumnos del curso de _git desarrollo colaborativo_ de 
 
 ## Control de Cambios
 
+* __git status:__ compara el estado de los archivos con el staging area
 * __git add `file`:__ agrega los cambios al staging area (INDEX)
 * __git commit:__ abre el editor para generar una confirmacion de cambios.
+* __git log:__ muestra el historial de confirmaciones realizadas.
 
 ## Sincronizacion de Cambios
 
