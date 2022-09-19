@@ -29,3 +29,10 @@ Esto es una guia para los alumnos del curso de _git desarrollo colaborativo_ de 
 * __git push `remote` `branch`:__ envia el historial de cambios al repositorio remoto
 * __git fetch `remote`:__ captura el historial de confirmaciones del repositorio remoto 
 * __git pull `remote` `branch`:__ obtiene los cambios del repositorio remoto y en la rama actual
+
+## Apuntadores de GIT
+
+* __HEAD:__ Apuntador movil que indica donde nos encontramos dentro del historial de confirmaciones.
+* __BRANCH:__ Apuntador Dinamico que se corresponde con el ultimo commit dentro de una historia.
+* __TAG:__ Apuntador estatico que apunta a un commit especifico, se utiliza para el versionado.
+* __STASH:__ Apuntador a la zona temporal de cambios, se utiliza cuando debemos desplazarnos entre ramas con cambios pendientes.
