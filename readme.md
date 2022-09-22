@@ -9,9 +9,14 @@ Esto es una guia para los alumnos del curso de _git desarrollo colaborativo_ de 
 
 ## Configuracion Inicial
 
-* __git init__: inicializa un repositorio local
-* __git config user.name `username`__ define el nombre de usuario
-* __git config user.email `email`__ define el correo de usuario
+Cuando trabajamos con GIT debemos inicializar el repositorio, esto debe hacerse en la carpeta donde querramos hacer seguimiento a los archivos. Podemos definir otros parametros indicando que dicha configuracion sea accesible desde cualquier repositorio utilizando _--global_ despues del comando correspondiente.
+
+Otro parametro que podemos utilizar es _--system_, pero este funciona en algunas configuraciones especificas y a diferencia del anterior, aplica para todo el equipo.
+
+* __git init__: inicializa un repositorio local en el directorio actual
+* __git config user.name `username`__ define el nombre de usuario (local o global).
+* __git config user.email `email`__ define el correo de usuario (local o global).
+* __git config core.editor=`editor`__ define el editor de codigo predeterminado para las confirmaciones.
 
 ## Configuracion Remoto
 
@@ -27,6 +32,10 @@ Esto es una guia para los alumnos del curso de _git desarrollo colaborativo_ de 
 * __git log:__ muestra el historial de confirmaciones realizadas.
 
 ## Sincronizacion de Cambios
+
+Una vez que realizamos varias confirmaciones de cambios en nuestro proyecto, por una cuestion de accesibilidad y seguridad, debemos enviar dicho historial de confirmaciones a nuestro repositorio remoto.
+
+De la misma manera, si necesitamos actualizar localmente los cambios que se hayan hecho en nuestro respositorio remoto, podemos acceder a los mismos mediante los siguientes comandos:
 
 * __git push `remote` `branch`:__ envia el historial de cambios al repositorio remoto
 * __git fetch `remote`:__ captura el historial de confirmaciones del repositorio remoto 
