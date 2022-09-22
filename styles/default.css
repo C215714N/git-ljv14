@@ -4,16 +4,6 @@
 @import url('general.css');
 @import url('navigation.css');
 
-*{
-    box-sizing: border-box;
-}
-
-body{
-    margin: 0;
-}
-
-
-
 /* --------------------------PIE DE PAGINA ----------------- */
 footer{
     background-color: #dcd7c9;
