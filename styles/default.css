@@ -23,19 +23,33 @@
     }
 
     .social a{
-        height: 50px;
-        width: 50px;
+        height: 4rem;
+        width: 4rem;
         border-radius: 50%;
-        background-color: #fff;
-        background-size: 40px;
+        background-color: #ddd;
+        background-size: 2.5rem;
         background-position: center;
         background-repeat: no-repeat;
+        text-decoration: none;
     }
     .social a:hover{
-        background-size: 45px;
+        background-color: #eee;
+        background-size: 3rem;
         box-shadow: 0 2px 8px #444;
     }
-
+    .repos a{
+        position: relative;
+        width: auto;
+        height: auto;
+        padding: .5rem;
+        border-radius: .5rem;
+        color: #eee;
+        background-color: #333;
+    }
+    .repos a:hover{
+        bottom: .25rem;
+        background-color: #666;
+    }
     .instagram{
         background-image: url('../assets/icons/instagram.png');
     }
