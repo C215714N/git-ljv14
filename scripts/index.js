@@ -1,11 +1,11 @@
-// Importacion de archivos
-
+window.addEventListener('DOMContentLoaded', () => {
+const d = document;
 //script para el carrusel de peliculas
 
-let carrusel = document.querySelector('#carrusel');
+let carrusel = d.querySelector('#carrusel');
 
 let maxScrollIzq = carrusel.scrollWidth - carrusel.clientWidth;
-let intervalo;
+let intervalo = null;
 let pasos = 1;
 
 const movimiento = () => {
@@ -25,5 +25,6 @@ const detenerMovimiento = () => {
 
 carrusel.addEventListener('mouseover', detenerMovimiento);
 carrusel.addEventListener('mouseout', movimiento);
-
 movimiento();
+
+}   )
