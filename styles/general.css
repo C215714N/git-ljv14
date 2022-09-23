@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Poppins', 'Calibri', sans-serif;
+}
+/* Margenes */
+body,
+h1,
+h2,
+h3,
+h4,
+.menu{
+    margin: 0;
+}
+/*-------------------------CABECERA------------------------*/
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:55px;
+    font-style: italic;
+    text-shadow: 0px 20px 5px black;
+}
+.titulo{
+    background-image:
+    url('../assets/image/fondo_header.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height:250px;
+    background-size:cover;
+    box-shadow: 0px 5px 20px blue;
+}
+
+/* Bordes */
+
+/* Rellenos */
+
+/* Estilos */
+
+/* Anchos */
+
+/* Layout */
+body{
+    display: grid;
+    grid-template-columns: 
+        min(30%, 6rem) 
+        max(70%, calc(100vw - 7rem));
+    grid-template-areas: 
+    'nav header'
+    'nav main'
+    'nav footer';
+    overflow-x: hidden;
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}

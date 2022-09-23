@@ -1,0 +1,41 @@
+nav {
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+}
+.menu{
+    max-width: 6rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #124;
+    padding: .5rem;
+    gap: .5rem;
+    list-style: none;
+}
+nav a{
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+nav a:hover{
+    text-shadow: 0 0 .5rem #eee;
+}
+.icon::before{
+    font-size: 2rem;
+}
+.home::before{
+    content: '🏠';
+}
+.about::before{
+    content: '🌁';
+}
+.gallery::before{
+    content: '🖨️';
+}
+.settings::before{
+    content: '⚙️';
+}

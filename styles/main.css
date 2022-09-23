@@ -1,0 +1,53 @@
+#estrenos{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+#carrusel{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    gap: 20px;
+    margin: 15px;
+    background-color: rgb(110, 105, 105);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#carrusel::-webkit-scrollbar{
+    height: 15px;
+}
+
+#carrusel::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 15px;
+}
+
+.estreno{
+    flex-basis: 300px;
+    padding-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.estreno img{
+    width: 500px;
+    height: 300px;
+}
+
+.estreno h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.estreno p{
+    margin: 0;
+    margin-left: 10px;
+}
+
+.estreno:hover{
+    transform: scale(1.03);
+}
