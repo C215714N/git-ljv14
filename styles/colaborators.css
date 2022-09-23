@@ -3,9 +3,24 @@
 }
 .colabs{
     margin: 1rem auto;
+    border-collapse: collapse;
+    color: #eee;
+    background: linear-gradient(#248, #36c);
+    text-shadow: 0 0 .5rem #333;
 }
 .colabs caption,
 .colabs th,
 .colabs td{
     padding: .5rem;
 }
+.colabs caption{
+    border-radius: .25rem .25rem 0 0;
+    background-color: #248;
+}
+.colabs tbody tr:nth-child(odd){
+    background-color: #6668;
+}
+.colabs tbody tr:nth-child(even){
+    background-color: #9998;
+}
+
