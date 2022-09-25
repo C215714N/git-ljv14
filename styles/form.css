@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto');
+
+
+/* Formulario de Contacto */
+#contact{
+    display: grid;
+    max-width: 720px;
+    border-radius: .25rem;
+    padding: 1.5rem;
+    gap: .5rem;
+    background-image: linear-gradient(rgb(76, 60, 133), transparent);
+}
+
+#contact :is(
+    input,
+    textarea
+){
+    outline: none;
+    border-radius: .25rem;
+    border: 2px solid #666;
+    padding: .5rem;
+    transition: all .25s ease-in;
+}
+#contact button{
+    margin-left: auto;
+    border-radius: .25rem;
+    border: 1px solid;
+    padding: .5rem 1.5rem;
+    color: rgb(22, 20, 18);
+    background-color: transparent;
+    text-transform: uppercase;
+    transition: all .1s ease;  
+
+
+}
+#contact button:hover{
+    color: aqua;
+    background-image: radial-gradient(circle at top left, #125, #247);
+
+}
+/*Validacion*/
+#contact .valid{
+    max-height: 0;
+    margin-top: -.5rem;
+    overflow: hidden;
+    transition: all .25s ease-in;
+}
+
+#contact :focus + valid{
+    max-height: 600px;
+}
+#contact :is(input, textarea):valid{
+    border-color: aqua;
+}
+#contact :focus:valid + .valid{
+    color: #666;
+}
+#contact :not(:placeholder-shown):invalid{
+    border-color: rgb(84, 6, 104);
+}
+#contact :not(:placeholder-shown):invalid + .valid{
+    color: rgb(7, 95, 117);
+}
